@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(148, 219, 195);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media (max-width:700px) {
+    div{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}
